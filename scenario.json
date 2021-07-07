@@ -1,0 +1,104 @@
+{
+  "accounts": {
+    "account{0}": "0x6235357d7E5988e184d1FE33144bd3661394C6C8"
+  },
+  "linkReferences": {},
+  "transactions": [
+    {
+      "timestamp": 1625567171099,
+      "record": {
+        "value": "0",
+        "parameters": [],
+        "abi": "0x4b0f941d925f54c2269ed946224e00daaa323914d680e8a356e0c2f6620f5819",
+        "contractName": "BDSCIAssetTokenized",
+        "bytecode": "608060405234801561001057600080fd5b5064e8d4a5100060005567016345785d8a0000600155610168806100356000396000f3fe60806040526004361061003f5760003560e01c8063047fc9aa1461007e578063919840ad146100a557806395ae1988146100ba578063e3d670d7146100cf575b600154348161004a57fe5b3360009081526002602052604090208054929091049091019055600154348161006f57fe5b60008054929091049091039055005b34801561008a57600080fd5b50610093610102565b60408051918252519081900360200190f35b3480156100b157600080fd5b50610093610108565b3480156100c657600080fd5b5061009361011b565b3480156100db57600080fd5b50610093600480360360208110156100f257600080fd5b50356001600160a01b0316610121565b60005481565b3360009081526002602052604090205490565b60015481565b6002602052600090815260409020548156fea265627a7a72315820b79621cffe27e7abeaadfab7e521a2d19aadedf50d6114e447fe4dbc37e39a1764736f6c63430005110032",
+        "linkReferences": {},
+        "name": "",
+        "inputs": "()",
+        "type": "constructor",
+        "from": "account{0}"
+      }
+    }
+  ],
+  "abis": {
+    "0x4b0f941d925f54c2269ed946224e00daaa323914d680e8a356e0c2f6620f5819": [
+      {
+        "inputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "constructor"
+      },
+      {
+        "payable": true,
+        "stateMutability": "payable",
+        "type": "fallback"
+      },
+      {
+        "constant": true,
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "name": "balance",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [],
+        "name": "check",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [],
+        "name": "pricePerEth",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [],
+        "name": "supply",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ]
+  }
+}
