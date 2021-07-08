@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.6+commit.11564f7e"
+		"version": "0.8.4+commit.c7e474f2"
 	},
 	"language": "Solidity",
 	"output": {
@@ -46,28 +46,20 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"BlacDiamondSCInc_flat.sol": "BallotTest"
+			"tests/4_Ballot_test.sol": "BallotTest"
 		},
-		"evmVersion": "berlin",
+		"evmVersion": "istanbul",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
 		},
 		"optimizer": {
-			"enabled": true,
+			"enabled": false,
 			"runs": 200
 		},
 		"remappings": []
 	},
 	"sources": {
-		"BlacDiamondSCInc_flat.sol": {
-			"keccak256": "0x872561fb095eb174e12e9e724d54316e20c579885f7582bf596e302dade49d0e",
-			"license": "GPL-3.0",
-			"urls": [
-				"bzz-raw://6d7fafc4b091af8406f58a15e4ea15f45f93a480ff271fd0f58cc7549de53036",
-				"dweb:/ipfs/QmY5ejmvNsgrTjueX8FYYNutD8kS8SyzrKr5dKbXZmZg61"
-			]
-		},
 		"contracts/3_Ballot.sol": {
 			"keccak256": "0xdd897b48a563d1d32369fdb327187dfcd2660159cfcd3787196bb6be6a312c8d",
 			"license": "GPL-3.0",
@@ -82,6 +74,14 @@
 			"urls": [
 				"bzz-raw://bb6a22e64c7f16bcaab63b1c1a1b269d5be8a6d37bdd9dec1718477ab916b18e",
 				"dweb:/ipfs/QmdkW1tT5iadBvaHMCoskhDGZKnfdg8o1D9CcoQYtdJet7"
+			]
+		},
+		"tests/4_Ballot_test.sol": {
+			"keccak256": "0x46f1ba2ef90c42b2d7535c9f7d468120f2f0acaeb64727f846e2477716355689",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://55155e7f092806dadbd894e5b3c367343183af8841e7095d2aa1625f45a885ac",
+				"dweb:/ipfs/QmUH3XyQQ5AwykuczYJNJFfcmdFkGS392fTskRfi7QTPav"
 			]
 		}
 	},
