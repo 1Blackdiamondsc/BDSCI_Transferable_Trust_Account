@@ -1,0 +1,97 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "terminateAccount",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "newAccount",
+						"type": "address"
+					}
+				],
+				"name": "transferAccount",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "withdrawAll",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdrawAmount",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"BDSCI_Transferable_TrustFnd_Account.sol": "BDSCTransferableTrustFundAccount"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"BDSCI_Transferable_TrustFnd_Account.sol": {
+			"keccak256": "0xcd4d75d3efb3a56a2ae168473a38f8e2955102bba3c22b3730a558bd72ab00fc",
+			"urls": [
+				"bzz-raw://af1b926a432f337501fbaa9682bcabd92c25a59fe80948b534cf1bb2a35935af",
+				"dweb:/ipfs/Qmc3aWbfZ3UGkHHcz7oeCnpvy6Gr17yEuJkME1iUpiN3yR"
+			]
+		}
+	},
+	"version": 1
+}

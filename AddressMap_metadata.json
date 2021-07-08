@@ -1,0 +1,37 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"BDSCI_Transferable_TrustFnd_Account.sol": "AddressMap"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"BDSCI_Transferable_TrustFnd_Account.sol": {
+			"keccak256": "0x20bf85008ef4d1573bd8f20d7f3b099e2d025b2fb1be6600093c64e02c427ade",
+			"urls": [
+				"bzz-raw://b6be6412e0ed984f86cbc1e9963f98297fdba6046d52888e81d3594109a9e84a",
+				"dweb:/ipfs/QmdJK7q3NjPZCEduaisf9pn39H3pkHwNue86jRFT7D3GMY"
+			]
+		}
+	},
+	"version": 1
+}
