@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.6+commit.11564f7e"
+		"version": "0.8.4+commit.c7e474f2"
 	},
 	"language": "Solidity",
 	"output": {
@@ -18,9 +18,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			".deps/npm/@openzeppelin/contracts/utils/Context.sol": "Context"
+			"Context_flat.sol": "Context"
 		},
-		"evmVersion": "berlin",
+		"evmVersion": "istanbul",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		".deps/npm/@openzeppelin/contracts/utils/Context.sol": {
-			"keccak256": "0x95098bd1d9c8dec4d80d3dedb88a0d949fa0d740ee99f2aa466bc308216ca6d5",
+		"Context_flat.sol": {
+			"keccak256": "0x8cf20fab88db8d6c8559ae14951986e62b5d4d68cc9f9ac9abbe9d18795777a9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7fec968dcd68e13961521fa3c7dd87baecad91a2653b19240e81f21cc4f3ba85",
-				"dweb:/ipfs/QmaXtsYt4Mphm8XHNUfk2me1cF3ssS2SqDBNFpYAzMjomC"
+				"bzz-raw://7138c276350b7d234ed065e76950feb163dc8b4dd3d3b67370f66bbbb4640020",
+				"dweb:/ipfs/QmPJJMm3SKxELQ1FmSzzbCRmFVV9MLZJAihHy3YCH8DfRh"
 			]
 		}
 	},

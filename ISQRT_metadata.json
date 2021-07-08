@@ -1,0 +1,37 @@
+{
+	"compiler": {
+		"version": "0.5.16+commit.9c3226ce"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"BDSCI_Transferable_TrustFnd_Account.sol": "ISQRT"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"BDSCI_Transferable_TrustFnd_Account.sol": {
+			"keccak256": "0x87ba409f0ff6161b239b40882a7e99ff3a512ed286fbb79eca31db9389585f4d",
+			"urls": [
+				"bzz-raw://cda69e65a259dd0d1dea9bb9b1b0b12cf72fa6c2cf2de94bdfac3e3cf6fb8b79",
+				"dweb:/ipfs/QmWwdBUefhhNQRG7it4XrhV1dhswLPt5hZw6WQDfrYmBf1"
+			]
+		}
+	},
+	"version": 1
+}

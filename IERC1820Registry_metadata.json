@@ -283,7 +283,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			".deps/npm/@openzeppelin/contracts/utils/introspection/IERC1820Registry.sol": "IERC1820Registry"
+			"IERC1820Registry_flat.sol": "IERC1820Registry"
 		},
 		"evmVersion": "berlin",
 		"libraries": {},
@@ -291,13 +291,13 @@
 			"bytecodeHash": "ipfs"
 		},
 		"optimizer": {
-			"enabled": false,
+			"enabled": true,
 			"runs": 200
 		},
 		"remappings": []
 	},
 	"sources": {
-		".deps/npm/@openzeppelin/contracts/utils/introspection/IERC1820Registry.sol": {
+		"IERC1820Registry_flat.sol": {
 			"keccak256": "0xdf30b8f2bba82b86661928377f70ba4b68739a799f8bad36e542144811aa70d6",
 			"license": "MIT",
 			"urls": [
