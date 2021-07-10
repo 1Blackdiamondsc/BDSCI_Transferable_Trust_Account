@@ -1,3 +1,5 @@
+[BDSCI AT TTFA Logo.zip](https://github.com/1Blackdiamondsc/BDSCI_Transferable_Trust_Account/files/6794571/BDSCI.AT.TTFA.Logo.zip)
+![website_logo_solid_background](https://user-images.githubusercontent.com/73549208/125149929-05504000-e10a-11eb-963d-55c641f69c96.png)
 # For more information see: https://help.github.com/actions/language-and-framework-guides/publishing-nodejs-packages
 
 name: Node.js Package
